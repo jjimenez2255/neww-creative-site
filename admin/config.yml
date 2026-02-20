@@ -1,0 +1,75 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Info"
+        file: "content/settings.json"
+        fields:
+          - { name: "studio_name", label: "Studio Name", widget: "string", default: "NEWW Creative" }
+          - { name: "description", label: "Studio Description", widget: "text" }
+          - { name: "subtitle", label: "Subtitle (location line)", widget: "string" }
+          - { name: "email", label: "Email", widget: "string" }
+          - { name: "email_general", label: "General Email", widget: "string", required: false }
+          - { name: "location", label: "Location", widget: "string" }
+          - { name: "instagram", label: "Instagram URL", widget: "string", required: false }
+          - { name: "vimeo", label: "Vimeo URL", widget: "string", required: false }
+          - { name: "linkedin", label: "LinkedIn URL", widget: "string", required: false }
+          - name: "clients"
+            label: "Selected Clients"
+            widget: "list"
+            field: { name: "name", label: "Client Name", widget: "string" }
+          - name: "capabilities"
+            label: "Capabilities"
+            widget: "list"
+            field: { name: "name", label: "Capability", widget: "string" }
+
+      - name: "services"
+        label: "Services Page"
+        file: "content/services.json"
+        fields:
+          - { name: "intro", label: "Services Intro Text", widget: "text" }
+          - { name: "subtitle", label: "Services Subtitle", widget: "string", required: false }
+          - name: "services"
+            label: "Services"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Service Name", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - name: "tags"
+                label: "Tags / Deliverables"
+                widget: "list"
+                field: { name: "tag", label: "Tag", widget: "string" }
+
+      - name: "contact"
+        label: "Contact Page"
+        file: "content/contact.json"
+        fields:
+          - { name: "intro", label: "Contact Intro Text", widget: "text" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["order", "title"]
+    fields:
+      - { name: "title", label: "Project Title", widget: "string", hint: "e.g. UPPERROOM — Worship Album" }
+      - { name: "services", label: "Services", widget: "string", hint: "Comma separated: Creative Direction, Video Production" }
+      - { name: "status", label: "Status", widget: "select", options: ["Done", "In Progress"] }
+      - { name: "location", label: "Location", widget: "string", hint: "e.g. USA, Texas" }
+      - { name: "description", label: "Description", widget: "text", hint: "1-2 sentence project summary" }
+      - { name: "order", label: "Sort Order", widget: "number", value_type: "int", default: 10, hint: "Lower = higher on page" }
+      - { name: "external_link", label: "External Link", widget: "string", required: false }
+      - { name: "vimeo_url", label: "Vimeo Embed URL", widget: "string", required: false, hint: "Full Vimeo URL for video embed" }
+      - { name: "image1", label: "Image 1", widget: "image", required: false }
+      - { name: "image2", label: "Image 2", widget: "image", required: false }
+      - { name: "image3", label: "Image 3", widget: "image", required: false }
+      - { name: "image4", label: "Image 4", widget: "image", required: false }

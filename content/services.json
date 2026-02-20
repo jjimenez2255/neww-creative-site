@@ -1,0 +1,36 @@
+{
+  "intro": "We operate at the intersection of brand, production, and technology. Every engagement starts with clarity — who you are, what you need, and what the work should do.",
+  "subtitle": "Scoping and pricing shared after initial conversation.",
+  "services": [
+    {
+      "name": "Brand Identity",
+      "description": "Full brand systems from strategy through execution. Visual and verbal language that makes your organization unmistakable.",
+      "tags": [{ "tag": "Logo Systems" }, { "tag": "Typography" }, { "tag": "Color" }, { "tag": "Guidelines" }, { "tag": "Naming" }]
+    },
+    {
+      "name": "Creative Direction",
+      "description": "Vision-to-execution leadership for campaigns, content, and experiences. The eye and the operational muscle.",
+      "tags": [{ "tag": "Campaign Strategy" }, { "tag": "Art Direction" }, { "tag": "Content Strategy" }, { "tag": "Consulting" }]
+    },
+    {
+      "name": "Video Production",
+      "description": "End-to-end production for worship recordings, brand films, social content, and campaign assets. Concept through delivery.",
+      "tags": [{ "tag": "Live Recording" }, { "tag": "Brand Films" }, { "tag": "Social" }, { "tag": "Motion" }, { "tag": "Post" }]
+    },
+    {
+      "name": "Web & Digital",
+      "description": "Websites, e-commerce, and digital platforms designed to convert and scale. Framer, Shopify, custom.",
+      "tags": [{ "tag": "Web Design" }, { "tag": "Shopify" }, { "tag": "Framer" }, { "tag": "E-Commerce" }, { "tag": "UI/UX" }]
+    },
+    {
+      "name": "Packaging & Print",
+      "description": "Physical brand touchpoints. Product packaging, merch, event collateral. Every surface intentional.",
+      "tags": [{ "tag": "Product Packaging" }, { "tag": "Merch" }, { "tag": "Print" }, { "tag": "Events" }]
+    },
+    {
+      "name": "Brand Strategy",
+      "description": "Positioning, market clarity, and growth frameworks. Know who you are before you build what you look like.",
+      "tags": [{ "tag": "Positioning" }, { "tag": "Research" }, { "tag": "Architecture" }, { "tag": "GTM" }]
+    }
+  ]
+}
