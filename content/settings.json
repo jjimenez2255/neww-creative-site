@@ -1,29 +1,49 @@
 {
-  "studio_name": "NEWW Creative",
-  "description": "NEWW Creative is a multidisciplinary studio focused on brand architecture, production, and creative direction. We work with worship communities, consumer brands, and cultural ventures to build systems that last.",
-  "subtitle": "Based in Texas. Working worldwide.\nFull portfolio available upon request.",
-  "email": "hello@newwcreative.com",
-  "email_general": "info@newwcreative.com",
-  "location": "Texas, USA",
-  "instagram": "#",
   "vimeo": "#",
-  "linkedin": "#",
+  "email_general": "",
   "clients": [
-    { "name": "UPPERROOM" },
-    { "name": "Ashwood" },
-    { "name": "BASKETCASE" },
-    { "name": "Ministry School" },
-    { "name": "FC Sabadell" },
-    { "name": "Angels Foundation" },
-    { "name": "HYDI" },
-    { "name": "Joel Houston" }
+    {
+      "name": "UPPERROOM"
+    },
+    {
+      "name": "Ashwood"
+    },
+    {
+      "name": "BASKETCASE"
+    },
+    {
+      "name": "Ministry School"
+    },
+    {
+      "name": "FC Sabadell"
+    },
+    {
+      "name": "Angels Foundation"
+    },
+    {
+      "name": "HYDI"
+    },
+    "UNITED"
   ],
+  "instagram": "#",
+  "studio_name": "NEWW Creative",
+  "location": "Newport Beach, California ",
   "capabilities": [
-    { "name": "Brand Identity" },
-    { "name": "Creative Direction" },
-    { "name": "Video Production" },
-    { "name": "Web Design & Dev" },
-    { "name": "Content Strategy" },
-    { "name": "Packaging" }
-  ]
+    {
+      "name": "Brand Identity"
+    },
+    {
+      "name": "Creative Direction"
+    },
+    {
+      "name": "Video Production"
+    },
+    {
+      "name": "Content Strategy"
+    }
+  ],
+  "subtitle": "Based in Newport Beach, California. Working worldwide. Full portfolio available upon request.",
+  "email": "hello@neww.io",
+  "description": "NEWW Creative is a multidisciplinary studio focused on brand architecture, production, and creative direction. We work with worship communities, consumer brands, and cultural ventures to build systems that last.",
+  "linkedin": "#"
 }
